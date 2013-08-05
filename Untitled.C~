@@ -1,0 +1,9 @@
+#include<Wt/WContainerWidget>
+#include<Wt/WText>
+
+using namespace Wt;
+
+Wt::WContainerWidget *container=new Wt::WContainerWidget(root());
+container->addWidget(Wt::WText("hello");
+
+

@@ -1,0 +1,14 @@
+#include<Wt/WContainerWidget>
+#include<Wt/WText>
+
+using namespace Wt;
+
+Wt::WContainerWidget *container=new Wt::WContainerWidget(this);
+container->addWidget(Wt::WText("hello");
+for (unsigned int i = 0; i < 3; ++i)
+ {
+    // A widget can be added to a container by passing the container as
+    // the last constructor argument.
+    new Wt::WText(Wt::WString::fromUTF8("<p>Text {1}</p>").arg(i), container);
+}
+
